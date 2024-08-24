@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/google/uuid"
-	"github.com/vickon16/first-go-backend/internal/database"
+	"github.com/vickon16/first_backend_tutorial/internal/database"
 )
 
 func (apiConfig *apiConfig) handlerCreateFeedFollows(w http.ResponseWriter, r *http.Request, user database.User) {

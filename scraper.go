@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/vickon16/first-go-backend/internal/database"
+	"github.com/vickon16/first_backend_tutorial/internal/database"
 )
 
 // this is a long running job that will scrape the RSS feed and store the results in a database

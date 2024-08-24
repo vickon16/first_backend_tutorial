@@ -10,7 +10,7 @@ import (
 	"github.com/go-chi/chi"
 	"github.com/go-chi/cors"
 	"github.com/joho/godotenv"
-	"github.com/vickon16/first-go-backend/internal/database"
+	"github.com/vickon16/first_backend_tutorial/internal/database"
 
 	_ "github.com/lib/pq" // include postgres without calling it
 )

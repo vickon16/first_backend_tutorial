@@ -1,4 +1,4 @@
-module github.com/vickon16/first-go-backend
+module github.com/vickon16/first_backend_tutorial
 
 go 1.23.0
 

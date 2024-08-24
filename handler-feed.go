@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/vickon16/first-go-backend/internal/database"
+	"github.com/vickon16/first_backend_tutorial/internal/database"
 )
 
 func (apiConfig *apiConfig) handlerCreateFeed(w http.ResponseWriter, r *http.Request, user database.User) {

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/vickon16/first-go-backend/internal/auth"
-	"github.com/vickon16/first-go-backend/internal/database"
+	"github.com/vickon16/first_backend_tutorial/internal/auth"
+	"github.com/vickon16/first_backend_tutorial/internal/database"
 )
 
 type authHandler func(http.ResponseWriter, *http.Request, database.User)
