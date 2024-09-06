@@ -1,5 +1,5 @@
 -- +goose Up
-CREATE TABLE users (
+CREATE TABLE IF NOT EXISTS users (
   id UUID PRIMARY KEY,
   created_at TIMESTAMP NOT NULL DEFAULT NOW(),
   updated_at TIMESTAMP NOT NULL DEFAULT NOW(),
@@ -7,4 +7,4 @@ CREATE TABLE users (
 );
 
 -- +goose Down
-DROP TABLE users;
+DROP TABLE IF EXISTS users;

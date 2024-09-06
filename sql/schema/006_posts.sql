@@ -1,5 +1,5 @@
 -- +goose Up
-CREATE TABLE posts (
+CREATE TABLE IF NOT EXISTS posts (
   id UUID PRIMARY KEY,
   created_at TIMESTAMP NOT NULL DEFAULT NOW(),
   updated_at TIMESTAMP NOT NULL DEFAULT NOW(),
@@ -11,4 +11,4 @@ CREATE TABLE posts (
 );
 
 -- +goose Down
-DROP TABLE posts;
+DROP TABLE IF EXISTS posts;
